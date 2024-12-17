@@ -15,7 +15,7 @@ const logout= async()=>{
 }
 
   return (
-    <nav className='navbar navbar-expand-lg navbar-white bg-info'>
+    <nav className='navbar navbar-expand-lg navbar-white bg-danger'>
       <div className='container-fluid'>
         <a className='navbar-brand'>ORII</a>
         <button className='navbar-toggler' type='button' data-bs-toggle='collapse' 

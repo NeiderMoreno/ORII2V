@@ -33,7 +33,7 @@ const Login = () =>{
             LOGIN
           </div>
           <div className='card-body'>
-            <form onSubmit={login}>
+            <form onSubmit={Login}>
 
               <DivInput type='email' icon='fa-at' value={email}
               className= 'form-control' placeholder='Email' requiered='required' 
@@ -48,8 +48,10 @@ const Login = () =>{
                  <i className='fa-solid fa-door-open'></i> Login
                 </button>
               </div>
-
             </form>
+            <Link to='/register'>
+            <i className='fa-solid fa-user-plus'></i>Register
+            </Link>
           </div>
           </div>
         </div>
