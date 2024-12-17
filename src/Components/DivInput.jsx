@@ -10,6 +10,7 @@ export default forwardRef (({ type='text',icon='user',placeholder='',name,id,val
         },[]);
   return (
     <div className='input-group mb-3'>
+      
         <span className='input-group-text'>
           <i className={'fa-solid'+icon}></i>
         </span>
