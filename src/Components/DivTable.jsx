@@ -6,7 +6,7 @@ const DivTable = ({children,col, off, clasLoad,classTable}) => {
         <div className={'col-md-'+col+ 'offset-md-'+off}>
             <div className={'card border border-white text-center'+clasLoad}>
               <div className='card-body'>
-                <img src= '/loading.gf' className='img-fluid'></img>
+                <img src= '/loading.GF' className='img-fluid'></img>
               </div>
             </div>
             <div className={'table-responsive'+classTable}>

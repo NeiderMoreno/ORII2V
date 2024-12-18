@@ -27,7 +27,7 @@ const Login = () =>{
   return (
     <div className='container-fluid'>
       <div className='row mt-5'>
-        <div className='clo-md-4 offset-md-4'>
+        <div className='col-md-4 offset-md-4'>
           <div className='card border border.dark'>
           <div className='card-header bg-dark border border-primary text-white'>
             LOGIN

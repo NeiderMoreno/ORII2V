@@ -10,7 +10,7 @@ import {confirmation, sendRequest} from '../../functions';
 const Departaments = () => {
 const[departaments,setDepartaments] = useState([]);
 const[clasLoad,setClasLoad] = useState('');
-const[clasTable,setClasTable] = useState('');
+const[clasTable,setClasTable] = useState('d-none');
 useEffect(()=>{
   getDepartaments();
 },[]);

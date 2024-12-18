@@ -21,11 +21,12 @@ function App() {
       <Route path="/register" element={<Register />} />
       <Route path="/" element={<Departaments />} />
       <Route element={<ProtectedRoutes/>}>
-      <Route path="/create" element={<CreateDepartament />} />
+    <Route path="/create" element={<CreateDepartament />} />
       <Route path="/edit/:id" element={<EditDepartament />} />
       <Route path="/employees" element={<Employees />} />
       <Route path="/graphic" element={<Graphic />} />
       </Route>
+      
       
       
     </Routes>

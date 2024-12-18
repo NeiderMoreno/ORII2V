@@ -1,9 +1,10 @@
 // eslint-disable-next-line no-unused-vars
-import React from 'react'
+import React from 'react';
+import FormDep from '../../Components/FormDep';
 
 const Create = () => {
   return (
-    <div>Create</div>
+    <FormDep id={null} title='Crear Curso'></FormDep>
   )
 }
 
